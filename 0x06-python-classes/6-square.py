@@ -54,6 +54,9 @@ class Square:
             col = self.__size
             space_no = self.__position[0]
 
+            for i in range(space_no):
+                print("")
+
             for i in range(row):
                 for k in range(space_no):
                     print(" ", end="")
