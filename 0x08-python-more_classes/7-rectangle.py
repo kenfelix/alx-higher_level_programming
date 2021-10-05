@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """A class that defines a rectangle by: (based on 6-rectangle.py)
+
 """
 
 
@@ -9,8 +10,9 @@ class Rectangle:
        Attribute:
        number_of_instances (int): The number of Rectangle instances.
        print_symbol (any): Used as symbol for string representation.
+
     """
-    
+
     number_of_instances = 0
     print_symbol = "#"
 
