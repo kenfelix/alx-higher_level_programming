@@ -8,8 +8,8 @@ class Rectangle:
     """A Class that defines a rectangle
     
        Attribute:
-       number_of_instances (int): The number of Rectangle instances.
-       print_symbol (any): Used as symbol for string representation.
+           number_of_instances (int): The number of Rectangle instances.
+           print_symbol (any): Used as symbol for string representation.
 
     """
 
