@@ -65,7 +65,8 @@ class Rectangle:
         return ("".join(rectangle))
 
     def __repr__(self):
-        """return a string representation of the rectangle to be able to recreate a new instance by using eval()"""
+        """return a string representation of the rectangle"""
+
         rectangle = "Rectangle(" + str(self.__width)
         rectangle += ", " + str(self.__height) + ")"
         return (rectangle)
