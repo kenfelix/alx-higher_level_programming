@@ -4,7 +4,6 @@
 #include <floatobject.h>
 #include <string.h>
 
-
 /**
  * print_python_float - prints inflo about pYthon float.
  * @p: address of PyObject struct.
