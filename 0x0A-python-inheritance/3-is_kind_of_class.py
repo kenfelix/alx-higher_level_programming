@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Same class module.
 
-   contains only one function, is_same_class().
+Contains only one function, is_same_class().
 """
 
 
