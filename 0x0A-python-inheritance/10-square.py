@@ -3,10 +3,10 @@
 Contains a class Square that inherits from
 BaseGeometry and some methods.
 """
-BaseGeometry = __import__('9-base_geometry').BaseGeometry
+Rectangle = __import__('9-rectangle').Rectangle
 
 
-class Square(BaseGeometry):
+class Square(Rectangle):
     """Defines the Square class that inherits from BaseGeometry."""
 
     def __init__(self, size):
