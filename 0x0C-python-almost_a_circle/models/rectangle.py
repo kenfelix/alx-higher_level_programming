@@ -25,7 +25,7 @@ class Rectangle(Base):
 
     def __str__(self):
         """states the behaviour of the str method"""
-        return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id, 
+        return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id,
             self.x, self.y, self.width, self.height)
 
     @property
