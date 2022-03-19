@@ -7,7 +7,7 @@ if (x > 0) {
     x--;
   }
 } else if (x < 0) {
-  ;
-} else{
+
+} else {
   console.log('Missing number of occurrences');
 }
