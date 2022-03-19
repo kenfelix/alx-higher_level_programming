@@ -1,6 +1,6 @@
 #!/usr/bin/node
-let words = ['C is fun', 'Python is cool', 'javaScript is amazing'];
+const words = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
 
-for (let x in words) {
+for (const x in words) {
   console.log(words[x]);
 }
