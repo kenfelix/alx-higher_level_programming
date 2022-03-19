@@ -1,5 +1,5 @@
 #!/usr/bin/node
-let x = parseInt(process.argv[2]);
+let x = Math.abs(parseInt(process.argv[2]));
 
 if (x) {
   while (x !== 0) {
