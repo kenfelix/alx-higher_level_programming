@@ -1,17 +1,15 @@
 #!/usr/bin/node
-const len = process.argv.length;
-let big;
-let bigt = 0;
-if (len <= 2) {
-  console.log(0);
-} else {
-  for (let i = 2; i < len; i++) {
-    if (parseInt(process.argv[i]) > bigt) {
-      big = bigt;
-      bigt = parseInt(process.argv[i]);
-    } else if (parseInt(process.argv[i]) > big) {
-      big = parseInt(process.argv[i]);
-    }
-  }
+function sortNumber (a, b) {
+  return a - b;
 }
-console.log(big);
+let argsLen = process.argv.length;
+if (argsLen === 2 || argsLen === 3) {
+  console.log('0');
+} else {
+  let arr = [];
+  for (let i = 2; i < argsLen; i++) {
+    arr.push(process.argv[i]);
+  }
+  arr.sort(sortNumber);
+  console.log(arr[arr.length - 2]);
+}
