@@ -1,12 +1,12 @@
 #!/usr/bin/node
 const fs = require('fs');
+// reads and prints the content of a file
 
-if (process.argv.length > 2) {
-  fs.readFile(process.argv[2], (err, data) => {
-    if (err) {
-      console.log(err);
-    } else {
-      console.log(data.toString('utf-8'));
-    }
-  });
-}
+const arg = process.argv[2];
+fs.readFile(arg, 'utf8', (err, data) => {
+  if (err) {
+    console.error(err);
+    return;
+  }
+  console.log(data);
+});
